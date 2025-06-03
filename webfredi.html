@@ -1,0 +1,87 @@
+<body>
+    <a href="" target="_blank" class="web1">GitHub</a>
+    <button class="text" id="showBtn">Búcsúzunk Frédi-bácsi!</button>
+    <a target="_blank" class="web1" href="https://lenkeyiskola.hu/lenkeyiskola/" > Lenkey</a>
+    <div id="imageContainer" style="display:none; flex-direction: column; align-items: center;">
+        <div
+            style="margin-bottom: 10px; color: #fff; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">
+            <p class="text2">Frédi bácsi, már 4. óta önnel tanuljuk az infót, néhe nehezen tanultunk, de ez nem
+                állította meg magát
+                abban hogy megokítson minket, az ön által szerzett tudást az életünk végéig magunkal visszük, és soha
+                nem felejtjük el, hogy ön volt a tanárunk. Köszönjük szépen az eddigi munkáját, és sok sikert kívánunk a
+                jövőben!</p>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <img src="c:\Users\Tulajdonos\Downloads\frédi2-removebg-preview.png" alt="Kép 1">
+
+            <img src="c:\Users\Tulajdonos\Downloads\frédi_1-removebg-preview (1).png" alt="Kép 3">
+        </div>
+    </div>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(73, 10, 107);
+        }
+
+        .text {
+            font-size: 16px;
+            color: #000000;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: rgb(153, 7, 173);
+            padding: 50px;
+            border-radius: 110px;
+        }
+    </style>
+    <style>
+        .text2 {
+            font-size: 16px;
+            color: #000000;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: rgb(153, 7, 173);
+            padding: 20px;
+            border-radius: 110px;
+            border-color: #000000;
+            border-width: 30px;
+            border: 5px solid #060606;
+        }
+
+        .web1 {
+            font-size: 16px;
+            color: #000000;
+            font-weight: regular;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            background-color: rgb(153, 7, 173);
+            padding: 20px;
+            border-radius: 110px;
+            margin-right: 0px;
+            border: #000000 solid 5px;
+            cursor: pointer;
+            
+        }
+    </style>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+    </style>
+    <script>document.getElementById('showBtn').onclick = function () {
+            document.getElementById('imageContainer').style.display = 'flex';
+        }
+
+    </script>
+</body>
